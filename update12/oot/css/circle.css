@@ -1,0 +1,89 @@
+body {
+	
+	background: url(https://raw.githubusercontent.com/findbox/supportproxy/master/images/picture.jpg);
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color: #000000;
+	
+ 
+
+	  
+}
+canvas {
+	width: 15vw;
+	height: 15vh;
+  }
+  
+  h1 {
+	margin: 0;
+	color:#848484;
+	align:"center";
+  
+	
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+  
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+  }
+  
+  
+  
+  svg, .effects {
+	  display: block;
+	  position: absolute;
+	  top: 15%;
+	  left: 50%;
+	  transform: translateX(-50%) translateY(-50%);
+	  height: 1000px;
+	  height: 20vmin;
+	  width: 1000px;
+	  width: 20vmin;
+	  border-radius: 50%;
+  
+  
+  }
+  
+  @keyframes background-animation {
+	0% {background: rgba(255, 251, 0, 0)}
+	30% {background: rgba(255, 255, 255, 0)}
+	45% {background: rgba(230, 114, 69, 0.432)}
+	75% {background: rgba(216, 110, 11, 0.74)}
+	100% {background: rgba(252, 208, 13, 0.815)}
+  
+  }
+  
+  svg {
+	  background: rgba(11, 21, 220, 0);
+	  animation: background-animation 8s infinite alternate;
+  }
+  
+  
+  .effects {
+	  background: radial-gradient(circle, transparent 50%, rgba(253, 80, 0, 0.295) 99%);
+	  height: 1000px;
+	  height: 20.1vmin;
+	  width: 1000px;
+	  width: 20.1vmin;
+  
+  
+  
+  }
+  
+  path {
+	  stroke-dasharray: 900;
+	  stroke-dashoffset: 0;
+	  animation: dash 40s linear infinite;
+  }
+  
+  @keyframes dash {
+	  from {
+		  stroke-dashoffset: 6000;
+	  }
+	  to {
+		  stroke-dashoffset: 0;
+	  }
+  }

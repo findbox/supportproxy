@@ -1,0 +1,14 @@
+{
+    "appName": {
+        "message": "UTP Bypass Proxy"
+    },
+    "appDesc": {
+        "message": "UTP Bypass Proxy omite la restriccion de videos de youtube para que puedas navegar libremente"
+    },
+    "title": {
+        "message": "I´M UTP PROXY :)"
+    },
+    "proxy_helper_options" : {
+        "message": "mesage option"
+    }
+}
