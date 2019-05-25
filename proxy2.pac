@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 	if (dnsDomainIs(host, "youtube.com")) {
-		return "PROXY 212.237.36.234:3128";
+		return "PROXY 79.111.119.213:32646";
 	}
 	return "DIRECT";
 }
